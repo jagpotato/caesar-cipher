@@ -1,5 +1,5 @@
-const zCODE = 122
-const ZCODE = 90;
+const zCODE = "z".charCodeAt(0);
+const ZCODE = "Z".charCodeAt(0);
 const string = "aQke3~1eJPBg{9aZT";
 const shift = 3;
 
