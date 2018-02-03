@@ -3,6 +3,7 @@ const ZCODE = 90;
 const string = "aQke3~1eJPBg{9aZT";
 const shift = 3;
 
+console.log("平文");
 console.log(string);
 caesar(string, shift);
 
@@ -26,5 +27,6 @@ function caesar(string, shift) {
       result += char;
     }
   });
+  console.log("暗号文");
   console.log(result);
 }
